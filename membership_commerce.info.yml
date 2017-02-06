@@ -3,3 +3,6 @@ type: module
 description: Membership Module Commerce Integration
 core: 8.x
 package: Membership
+dependencies:
+  - commerce:commerce
+  - membership:membership
