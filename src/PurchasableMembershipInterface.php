@@ -4,7 +4,7 @@ namespace Drupal\membership_commerce;
 
 use Drupal\commerce\PurchasableEntityInterface;
 
-interface PurchasableMembership extends PurchasableEntityInterface {
+interface PurchasableMembershipInterface extends PurchasableEntityInterface {
 
   /**
    * Get the membership type (bundle) ID to create when purchasing this membership.
