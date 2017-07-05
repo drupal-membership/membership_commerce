@@ -4,5 +4,5 @@ description: Membership Module Commerce Integration
 core: 8.x
 package: Membership
 dependencies:
-  - commerce:commerce
+  - commerce:commerce_order
   - membership:membership
