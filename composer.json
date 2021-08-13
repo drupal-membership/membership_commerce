@@ -6,7 +6,8 @@
     "keywords": ["membership"],
     "minimum-stability": "dev",
     "require": {
-        "drupal/membership": "*"
+        "drupal/membership": "*",
+        "drupal/core": "^9"
     },
     "replace": {
         "drupal/membership_commerce": "self.version"
