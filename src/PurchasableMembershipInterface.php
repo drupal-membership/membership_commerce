@@ -16,8 +16,11 @@ interface PurchasableMembershipInterface extends PurchasableEntityInterface {
   /**
    * Factory method for creating a membership to fulfill this purchase.
    *
+   * @param array $providerData
+   *   Data to pass to the membership provider.
+   *
    * @return \Drupal\membership\Entity\MembershipInterface
    */
-  public function createMembership();
+  public function createMembership(array $providerData = []);
 
 }
